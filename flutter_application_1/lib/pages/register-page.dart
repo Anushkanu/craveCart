@@ -31,11 +31,11 @@ class _RegisterPageState extends State<RegisterPage> {
               obscureText: true,
             ),
             const SizedBox(height: 12),
-            ElevatedButton(onPressed: () {}, child: const Text("LOGIN")),
+            ElevatedButton(onPressed: () {}, child: const Text("REGISTER")),
             const SizedBox(height: 12,),
             TextButton(onPressed: (){
-              Navigator.pushReplacementNamed(context, "/register");
-            }, child: const Text("New User? Register Here"))
+              Navigator.pushReplacementNamed(context, "/login");
+            }, child: const Text("Existing User? Login Here"))
           ],
         )),
     );

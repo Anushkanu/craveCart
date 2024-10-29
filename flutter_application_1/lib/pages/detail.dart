@@ -15,7 +15,7 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(food.name),
-        backgroundColor: Colors.green, // Customize app bar color
+        backgroundColor:  Colors.tealAccent.shade700, // Customize app bar color
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -132,9 +132,13 @@ class DetailScreen extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.orange,
+                    backgroundColor: Color.fromARGB(255, 194, 168, 230),
                   ),
-                  child: const Text("Add to Cart"),
+                  child: const Text(
+                 "Add to Cart",
+                  style: TextStyle(color: Colors.white), // Set text color to white
+),
+
                 ),
                 ElevatedButton(
                   onPressed: () {
@@ -145,9 +149,13 @@ class DetailScreen extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.green,
+                    backgroundColor:  Colors.tealAccent.shade700,
                   ),
-                  child: const Text("Buy Now"),
+                  child: const Text(
+                  "Buy Now",
+                   style: TextStyle(color: Colors.white), // Set text color to white
+),
+
                 ),
               ],
             ),

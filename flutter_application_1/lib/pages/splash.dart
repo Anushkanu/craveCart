@@ -109,7 +109,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
               SlideTransition(
                 position: _textAnimation,
                 child: const Text(
-                  "Food Delivery App",
+                  "CraveCart",
                   style: TextStyle(
                     fontSize: 26,
                     fontWeight: FontWeight.w900,

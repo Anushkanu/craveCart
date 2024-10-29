@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   child: const Text(
-                    "Login",
+                    "Login Here",
                     style: TextStyle(fontSize: 18, color: Colors.white),
                   ),
                 ),
@@ -67,7 +67,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   child: const Text(
-                    "Register",
+                    "Register Here",
                     style: TextStyle(fontSize: 18, color: Colors.white),
                   ),
                 ),
@@ -84,6 +84,7 @@ class AnimatedScaleButton extends StatefulWidget {
   const AnimatedScaleButton({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _AnimatedScaleButtonState createState() => _AnimatedScaleButtonState();
 }
 
@@ -115,7 +116,7 @@ class _AnimatedScaleButtonState extends State<AnimatedScaleButton> {
           },
           icon: const Icon(Icons.fastfood, color: Colors.white),
           label: const Text(
-            "Go to List of Food",
+            "Explore Item",
             style: TextStyle(
               fontSize: 18,
               color: Colors.white,
